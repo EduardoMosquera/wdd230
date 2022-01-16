@@ -1,0 +1,8 @@
+@media (min-width: 32.5em) {
+  .name-left-img {
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+    width: 50%;
+    padding: 0.5em;
+  }
+}
