@@ -1,4 +1,4 @@
-body {
+/* body {
 	padding: 0;
 	margin: 0;
 }
@@ -49,10 +49,10 @@ header {
 .social svg {
 	width: 25px;
 	height: auto;
-}
+} */
 
 /* Larger viewports */
-@media only screen and (min-width: 32.5em) {
+/* @media only screen and (min-width: 32.5em) {
 	header img {
 		width: 100%;
 	}
@@ -66,4 +66,152 @@ header {
 		letter-spacing: 1.5pt;
 		font-size: 0.9rem;
 	}
+} */
+
+@media only screen and (min-width: 60em) {
+
+	#hamBtn {
+			display: none;
+	}
+	ul {
+			display: flex;
+			margin-left:30em;
+	}
+	nav ul a.homebtn {
+			display: none;
+	}
+	ul li a {
+			font-size: 2em;
+			background-color: black;
+			border: none;
+			margin-left: 1em;
+			margin-top: .4em;
+	}
+	nav ul#menu {
+			grid-column: 3/4;
+			grid-row: 1/2;
+	}
+	nav div.social {
+			grid-column: 4/5;
+			justify-self: end;
+			margin-right: 2em;
+	}
+
+	header p.todaysDate {
+		align-items: center;
+		text-align: center;
+		border: 3px;
+		border-radius: 8px 8px 8px 8px;
+		margin: 0;
+		width: 100%;
+		padding: .5em;
+		color: #d25252;
+		font-size: 1.5em;
+		font-weight: 500;
+		background-color:#d1d1d1;
+	}
+
+	main {
+			display: grid;
+			grid-template-columns: 20em 1fr 20em;
+			margin: 2em 3em 2em 3em;
+	}
+	main p.event{
+			grid-column: 1/2;
+			grid-row: 1/2;
+			margin: 0;
+			height: 10em;
+	}
+	main p.weather{
+			grid-column: 1/2;
+			grid-row: 2/3;
+			margin: .5em 0 .5em 0 ;
+			height: 10em;
+	}
+	main p.hero{
+			grid-column: 2/3;
+			grid-row: 1/4;
+			height: auto;
+			margin: 0 .5em .5em .5em ;
+	}
+	main p.news{
+			grid-column: 2/3;
+			grid-row: 4/5;
+			margin: 0 .5em 0 .5em ;
+			height: auto;
+	}
+	main p.join{
+			grid-column: 1/2;
+			grid-row: 4/5;
+			margin: 0;
+			height: 10em;
+	}
+	
+	main div p.spotThree {
+			display: block;
+	}
+	main div.placeholder {
+			grid-column: 3/4;
+			grid-row: 1/5;
+			height: auto;
+			margin: 0;
+			display: grid;
+			grid-template-columns: 1fr;
+			grid-template-rows: repeat(3, 1fr);
+			margin: 0;
+	}
+	main div p.spotOne {
+			grid-row: 1/2;
+			height: auto;
+	}
+	main div p.spotTwo {
+			grid-row: 2/3;
+			height: auto;
+	}
+	main div p.spotThree {
+			grid-row: 3/4;
+			height: auto;
+			width: auto;
+			margin: 0;
+	}
+	footer div.chamberInfo {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			grid-template-rows: repeat(2, 75px);
+			align-items: center;
+	}
+	footer div.chamberInfo p.cntctInfo {
+			justify-self: start;
+			margin-left: 5em;
+	}
+
+
+	footer div.chamberInfo a {
+			justify-self: start;
+			margin-left: 4em;
+	}
+	footer div.chamberInfo img.footerLogo {
+		 grid-column: 1/2;
+		 grid-row: 1/4;
+		 justify-self: end;
+	}
+	footer div.authoredInfo div, footer div.authoredInfo div p{
+			display: inline;
+			margin: 0;
+			padding: 0;
+			text-align: start;
+	}
+	footer div.authoredInfo {
+			display: flex;
+			flex-flow: row wrap;
+			margin-left: 24em;
+			padding-bottom: 1em;
+	}
+	
+	/* .baseline {
+		display: flex;
+		width: auto;
+		text-align: center;
+	} */
+
 }
