@@ -1,3 +1,4 @@
+// Give todays date
 const datefieldUK = document.querySelector("aside");
 const now = new Date();
 const fulldateUK = new Intl.DateTimeFormat("en-UK", {
