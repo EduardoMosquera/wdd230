@@ -1,11 +1,11 @@
-const d = new Date();
-let year = d.getFullYear();
-const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-const month = ["January","February","March","April","May","June","July","August","September","October","November","December"];
-let day = weekday[d.getDay()];
-let monthname = month[d.getMonth()];
+const datefieldUK = document.querySelector("aside");
+const now = new Date();
+const fulldateUK = new Intl.DateTimeFormat("en-UK", {
+	dateStyle: "full"
+}).format(now);
 
-document.querySelector(".currentyear").textContent += `\u00A9 ${year} Daule Chamber of Commerce`;
+datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
+
  
 function toggleMenu(){
   document.getElementById("menu").classList.toggle("open");

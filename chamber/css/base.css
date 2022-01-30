@@ -9,6 +9,8 @@ h1, p {margin: 0 2 vw;}
 header {
   padding: 10px;
   font-size: 12px;
+  background-color: #eee;
+  margin-bottom: 25px;
 }
 
 main > p {
@@ -97,12 +99,12 @@ nav div.social{
   padding-left: 2.3em;
 }
 
-header p.todaysDate {
-  align-items: center;
+aside {
+	align-items: center;
   text-align: center;
   border: 3px;
   border-radius: 8px 8px 8px 8px;
-  margin: 0;
+  margin: 10;
   padding: .5em;
   color: #d25252;
   font-size: 1.5em;
