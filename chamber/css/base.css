@@ -54,6 +54,7 @@ nav button {
   border: none;
   font-size: 2rem;
   color: #555;
+  transition: all 0.3s ease-in-out;
 }
 
 nav {
