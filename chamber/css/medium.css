@@ -12,6 +12,11 @@
   nav div.social img {
       padding: .1em;
   }
+
+  #hamBtn {
+    margin-left: 5em;
+  }
+
   main {
       display: grid;
       grid-template-columns: 600px 1fr;
