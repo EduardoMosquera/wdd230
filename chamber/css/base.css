@@ -4,15 +4,17 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-h1, p {margin: 0 2 vw;}
+/* h1, p {margin: 0 2 vw;} */
 
 header {
   padding: 10px;
   font-size: 12px;
-  background-color: #eee;
+  /* background-color: #d25252; */
+  background-color: rgb(21, 28, 94);
   margin-bottom: 25px;
 }
 
+/* Main style - Placeholders - */
 main > p {
   height: 5em;
   border: 2px solid gray;
@@ -42,58 +44,58 @@ main p.spotThree, .join {
   display: none;
 }
 
-header nav #hamBtn span:nth-child(1) { display: block;}
-header nav #hamBtn span:nth-child(2) { display: none;}
-
-header nav #hamBtn.open span:nth-child(1) { display: none;}
-header nav #hamBtn.open span:nth-child(2) { display: block;}
-
-nav button {
-  margin: .2rem 2vw;
-  background: transparent;
-  border: none;
-  font-size: 2rem;
-  color: #555;
-  transition: all 0.3s ease-in-out;
-}
-
+/* Hamburguer Menu*/
 nav {
-  background-color: #eee;
+  background-color: rgb(21, 28, 94);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: .5em;
 }
-
-nav ul {
-  list-style-type: none;
-  padding: 0;
+.navigation {
+	list-style: none;
+	padding: 0;
   margin: 0;
 }
-
-.navigation ul li {
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
 	display: none;
 }
-
-nav ul li a {
-  display: block;
-  padding: .8rem 2vw;
-  text-decoration: none;
-  color: #d25252;
-  border-top: 1px solid rgba(0,0,0,0.5);
+.navigation a {
+	display: block;
+	text-align: left;
+	text-decoration: none;
+	background-color: transparent;
+	font-weight: 700;
+	transition: 0.5s;
+  color: white;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+	padding: 0.75rem;
 }
 
-nav ul li a:hover {
-  background-color: rgba(0,0,0,0.3);
+.navigation a.ham::before {
+	content: "☰";
+  font-size: 1.5rem;
 }
 
-nav div p {
-  display: flex;
-  flex-direction: column;
-  font-size: 1.75em;
-  margin: 0;
-  padding: 0 6px 0px 6px;
-  color: #3b3b3b;
-  font-weight: 550;
+.navigation a:hover {
+	color: white;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
+
+.responsive li {
+	display: block;
+}
+
+.responsive a.ham::before {
+  color: white;
+	content: "✖";
 }
 
 nav div.social{
@@ -107,10 +109,11 @@ aside {
   border-radius: 8px 8px 8px 8px;
   margin: 10;
   padding: .5em;
-  color: #d25252;
+  color: white;
   font-size: 1.5em;
   font-weight: 500;
-  background-color:#d1d1d1;
+  background-color: rgb(15, 21, 70);
+  /* background: linear-gradient(to left, #d25252, rgb(21, 28, 94)); */
 }
 
 body {
@@ -120,7 +123,8 @@ body {
 }
 
 footer {
-  background-color: rgb(21, 28, 94);
+  /* background-color: rgb(21, 28, 94); */
+  background: linear-gradient(to left, #d25252, rgb(21, 28, 94));
 }
 
 footer div { 
@@ -171,7 +175,7 @@ hr {
     padding: 0;
     border: none;
     align-items: center;
-    background-color: gray;
+    background-color: #d1d1d1;
 }
 
 
