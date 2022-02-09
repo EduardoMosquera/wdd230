@@ -14,49 +14,123 @@
   }
 
   .ham {
-    margin-left: 5em;
+      margin-left: 5em;
   }
 
   main {
-      display: grid;
-      grid-template-columns: 600px 1fr;
-      margin-top: 1em;
+    display: grid;
+    grid-template-columns: 600px 1fr;
+    margin-bottom: 1rem;
   }
-  main p.hero {
-      grid-column: 1/3;
-      margin: 0;
-  }
-  main p.news {
-      display: grid;
-      grid-column: 1/3;
-      grid-row: 2/3;
-  }
+
   main div.placeholder {
-      grid-column: 1/3;
-      grid-row: 3/4;
-      margin: 0;
-      height: 5em;
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: 1fr;
+    grid-column: 1/3;
+    grid-row: 3/4;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
   }
-  main div p {
-      height: 3.5em;
+
+  main div {
+    grid-gap: 5px;
   }
-  main .join {
-      display: grid;
-      grid-column: 1/3;
-      grid-row: 4/5;
-      margin-bottom: 0;
+
+  /* Hero */
+  main .hero {
+    grid-column: 1/3;
+    margin: 0 auto;
   }
-  main .event {
+
+  .heroBtn {
+    bottom: 2rem;
+    right: 2rem;
+    font-size: 1.5rem;
+  }
+
+  .heroP {
+    font-size: 3rem;
+    text-align: center;
+    bottom: 1rem;
+    /* right: 1rem; */
+  }
+
+  /* Events */
+  main .events {
     grid-column: 1/2;
     grid-row: 5/6;
     margin-right: 10px;
   }
-  main div  {
-      grid-gap: 5px;
+  main .events a {
+    margin-left: 13rem;
+    font-size: 1.2rem;
   }
+  main .events p, h1, h2 {
+    margin: 0 5em 0 5em;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* Weather */
+  main .localWthr {
+    grid-column: 2/3;
+    grid-row: 5/6;
+  }
+  .localWthr .iconDesc{
+    font-size: .8em;
+  }
+  .localWthr p.wChill {
+    font-size: .9em;
+    padding: 3px;
+  }
+
+  /* News */
+  main .localNews {
+    grid-column: 1/3;
+    grid-row: 2/3;
+  }
+
+  /* Spots */
+  .placeholder div.spotOne, .placeholder div.spotTwo {
+    margin: 0;
+  }
+
+  /* Join Us */
+  main .joinUs {
+    display: grid;
+    position: relative;
+    grid-column: 1/3;
+    grid-row: 4/5;
+    margin:0;
+    padding: 1rem;
+  }
+  
+  .joinUs div a {
+    display: block;
+    position: absolute;
+    top: 1rem;
+    /* left: 3em; */
+    float: auto;
+    justify-content: center;
+    background-color: rgb(21,24,94); 
+    color: white;
+    padding: .5rem .5rem;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border-radius: 1rem;
+    width: 70%;
+    text-align: center;
+    box-shadow: 10px 5px 5px;
+  }
+  .joinUs p {
+    position: relative;
+    text-align: center;
+    color: #EAEBED;
+    margin-top: 5rem;
+  }
+  
+  /* Footer part */
+
   footer div.chamberInfo {
       display: grid;
       grid-template-columns: 150px 300px 1fr;
