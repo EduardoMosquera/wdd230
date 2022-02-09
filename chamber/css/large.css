@@ -78,7 +78,6 @@
 		font-size: 1.5em;
 		font-weight: 500;
 		background-color: rgb(15, 21, 70);
-		/* background: linear-gradient(to left, #d25252, rgb(21, 28, 94)); */
 	}
 
 	main {
@@ -130,6 +129,7 @@
 	main .events a {
     margin-left: 3em;
   }
+
 	/* Weather */
 	main .localWthr {
     grid-column: 1/2;
@@ -140,28 +140,22 @@
     font-size: .9em;
     padding-top: 2px;
   }
+
 	/* News */
 	main .localNews {
     grid-column: 2/3;
     grid-row: 3/4;
     margin: 0 .5em 0 .5em ;
   }
+
 	/* Spots */
 	main .placeholder .spotOne p, .spotTwo p, .spotThree p{
     font-size: .75rem;
 		padding: 0;
   }
 
-	main div .spotThree img {
+	main div div .spotOne img, div .spotTwo img, .spotThree img {
 		width: 50%;
-	}
-
-	main div .spotOne img {
-		width: 40%;
-	}
-
-	main div .spotTwo img {
-		width: 30%;
 	}
 
 	main div.placeholder div.spotThree {
