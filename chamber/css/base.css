@@ -100,9 +100,15 @@ main div.hero{
   right: 1rem;
 }
 
+.heroBtn:hover {
+  background-color: rgb(15, 21, 70);
+  font-weight: bold;
+}
+
 .heroP {
   position: absolute;
   color: white;
+  text-shadow: 2px 0 0 rgb(21, 28, 94), -2px 0 0 rgb(21, 28, 94), 0 2px 0 rgb(21, 28, 94), 0 -2px 0 rgb(21, 28, 94), 1px 1px rgb(21, 28, 94), -1px -1px 0 rgb(21, 28, 94), 1px -1px 0 rgb(21, 28, 94), -1px 1px 0 rgb(21, 28, 94);
   text-decoration: overline;
   top: .1rem;
   left: .1rem;
@@ -112,11 +118,15 @@ main div.hero{
 }
 
 /* Event */
-.events h1, .event h2, .event p, .event a {
-  margin: .2em;
+.events h1, .events h2, .events p, .events a {
+  margin: auto;
   align-content: center;
   color:  rgb(21, 28, 94); 
   text-align: center; 
+}
+
+.events h2, .events p {
+  color:  black; 
 }
 main div.events h1, div.localNews h1 {
   color: rgb(21, 28, 94);
@@ -204,25 +214,26 @@ main div.events h1, div.localNews h1 {
   color: rgb(21, 28, 94);
 }
 
+.localNews p {
+  color: black;
+}
+
 /* Spots */
 main div.spotTwo, div.spotOne, div.spotThree {
   margin: 0;
   text-align: center;
-  color: rgb(21, 28, 94);
-}
-main div.spotOne h2, div.spotTwo h2, div.spotThree h2 {
-  color: rgb(21, 28, 94);
+  color: black;
 }
 
-.joinUs, .placeholder div.spotThree {
-  display: none;
+main div.spotOne h2, div.spotTwo h2, div.spotThree h2 {
+  color: rgb(21, 28, 94);
 }
 
 main div .spotTwo img {
   width: 50%;
 }
 
-/* Join Us */
+/* Join Us - Sport Three hidden */
 .joinUs, .placeholder div.spotThree {
   display: none;
 }
@@ -308,6 +319,7 @@ body {
 footer {
   /* background-color: rgb(21, 28, 94); */
   background: linear-gradient(to left, #d25252, rgb(21, 28, 94));
+  margin-top: 20px;
 }
 
 footer div { 

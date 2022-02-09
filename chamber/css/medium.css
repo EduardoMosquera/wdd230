@@ -23,14 +23,6 @@
     margin-bottom: 1rem;
   }
 
-  main div.placeholder {
-    grid-column: 1/3;
-    grid-row: 3/4;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr;
-  }
-
   main div {
     grid-gap: 5px;
   }
@@ -45,6 +37,7 @@
     bottom: 2rem;
     right: 2rem;
     font-size: 1.5rem;
+    margin: 15px;
   }
 
   .heroP {
@@ -75,13 +68,14 @@
     grid-column: 2/3;
     grid-row: 5/6;
   }
-  .localWthr .iconDesc{
+  /* .localWthr .iconDesc{
     font-size: .8em;
   }
   .localWthr p.wChill {
     font-size: .9em;
     padding: 3px;
-  }
+  } */
+
 
   /* News */
   main .localNews {
@@ -90,8 +84,20 @@
   }
 
   /* Spots */
+  main div.placeholder {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+  }
+
   .placeholder div.spotOne, .placeholder div.spotTwo {
     margin: 0;
+  }
+
+  .placeholder div.spotTwo img {
+      margin: 34px;
   }
 
   /* Join Us */
@@ -100,7 +106,7 @@
     position: relative;
     grid-column: 1/3;
     grid-row: 4/5;
-    margin:0;
+    margin-top:20px;
     padding: 1rem;
   }
   
@@ -108,25 +114,32 @@
     display: block;
     position: absolute;
     top: 1rem;
-    /* left: 3em; */
-    float: auto;
-    justify-content: center;
+    left: 9em;
+    margin: auto;
     background-color: rgb(21,24,94); 
     color: white;
     padding: .5rem .5rem;
     text-decoration: none;
     font-size: 1.6rem;
-    font-weight: 600;
     border-radius: 1rem;
-    width: 70%;
+    width: 50%;
     text-align: center;
-    box-shadow: 10px 5px 5px;
   }
+
   .joinUs p {
     position: relative;
     text-align: center;
-    color: #EAEBED;
+    color: black;
     margin-top: 5rem;
+  }
+
+  .joinUs div {
+    justify-content: center;
+  }
+
+  .joinUs div a:hover {
+    background-color: rgb(21,24,70);
+    font-weight: bold;
   }
   
   /* Footer part */
