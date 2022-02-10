@@ -103,8 +103,8 @@
     margin: 1em;
   }
 
-	main .events a {
-    margin-left: 3em;
+	main div.events a {
+    margin-left: 5em;
   }
 
 	/* Weather */
