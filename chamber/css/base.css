@@ -147,10 +147,9 @@ main div.events h1, div.localNews h1 {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 2em 1fr 1em 1em 2em;
 }
-.localWthr img.weatherIcon {
+.localWthr div.weatherIcon {
   grid-column: 1/2;
   grid-row: 2/4;
-  margin-top: 20px;
 }
 .localWthr p span.temp {
   grid-column: 2/3;
@@ -201,7 +200,7 @@ main div.events h1, div.localNews h1 {
   color: black;
   justify-self: center;
 }
-.localWthr p.deg {
+.localWthr p.degree {
   font-size: 2.5rem;
   color: #d25252;
   justify-self: center;

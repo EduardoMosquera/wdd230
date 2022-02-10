@@ -70,14 +70,17 @@
       <!-- Weather -->
       <div class="localWthr">
         <h1 class="weather">Weather</h2>
-        <img class="weatherIcon" src="icons/09d.png" alt="">
-        <p class="deg"><span class="temp">24 </span>&#176;C</p>
-        <p class="description">Slightly raining</p>
+        <!-- <img class="weatherIcon" src="icons/09d.png" alt=""> -->
+        <div class="weatherIcon">
+          <img src="icons/unknown.png" alt="">
+        </div>
+        <p class="degree"><span class="temp"></span>&#176;C</p>
+        <p class="description"></p>
         <hr style="width:90%;text-align:center;">
         <p class="windS">Wind Speed:</p>
-        <p class="windSpeed"> 6.8 kph</p>
+        <p class="windSpeed"></p>
         <p class="windC">Wind Chill:</p>
-        <p class="windChill"> N/A </p>
+        <p class="windChill"></p>
       </div>
 
       <!-- News -->
@@ -147,6 +150,7 @@
        </div>      
   </footer>
   <script src="js/scripts.js"></script>
+  <script src="js/windchill.js"></script>
 
 <iframe src="about:blank" style="display: none;"></iframe>
 </body>
