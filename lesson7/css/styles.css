@@ -10,6 +10,5 @@ body picture img[data-src] {
 }
 
 body picture img {
-  /* filter: blur(0em); */
   transition: filter 0.5s;
 }
