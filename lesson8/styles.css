@@ -1,0 +1,60 @@
+:root {
+	--back: 	hsl(188, 35%, 63%);
+  --back2: 	hsl(203, 28%, 52%);
+  --foredark: hsla(0,0%,10%,1);
+	--forelight: 	hsl(160, 23%, 92%);
+	--border: hsl(0,0%,20%);
+	--borderlight: hsl(0,0%,33%);
+	--shadow: hsl(203, 27%, 56%);
+	--zebra: 	hsl(135, 100%, 95%);
+}
+
+table {
+	margin: 10px auto;
+	border: thin solid var(--border);
+	box-shadow: 10px 10px 15px var(--shadow);
+	border-collapse: collapse;
+}
+
+caption {
+  padding: 10px;
+  caption-side: bottom;
+	color: black;
+	font-size: .85rem;
+  background-color: #7fb9c2;
+  box-shadow: 10px 5px 15px var(--shadow);
+  border: thin solid var(--border);
+}
+
+tr:first-child th {
+	background-color: var(--back);
+	color: Black;
+  font-size: 32px;
+}
+
+th, td {
+	padding: 7px 15px;
+	border: 1px solid var(--borderlight);
+}
+
+th {
+	background-color: var(--back2);
+  color: white;
+}
+
+td {
+	text-align: center;
+}
+
+tbody tr:nth-child(even) {
+	background-color: var(--zebra);
+}
+
+tbody tr:nth-child(odd) {
+	background-color: hsl(160, 23%, 92%);
+}
+
+#highlight {
+  background-color: 	hsl(203, 28%, 52%);
+  color: white;
+}

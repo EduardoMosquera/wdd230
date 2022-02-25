@@ -16,5 +16,6 @@ localStorage.setItem("last-visit", dateVisited);
 // show todays date.
 lastVisit = Date.now()
 
+debugger
 let days = Math.round(Date.now() - lastVisit);
 visitsDisplay.textContent = days;

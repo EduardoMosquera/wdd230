@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Transitions">
+    <title>Transitions</title>
+    <style> 
+      #div0 {
+        width: 100px;
+        height: 100px;
+        background: blue;
+      }
+
+      #div0:hover {
+        background: black;
+      }
+  
+      div {
+        width: 100px;
+        height: 100px;
+        background: red;
+        transition: width 3s;
+      }
+      
+      div:hover {
+        width: 300px;
+        font-size: 1.5em;
+      }
+
+      #div1 {transition-timing-function: linear;background-color: aqua;}
+      #div2 {transition-timing-function: ease;background-color: blueviolet;}
+      #div3 {transition-timing-function: ease-in;background-color: brown;}
+      #div4 {transition-timing-function: ease-out;background-color: chartreuse;}
+      #div5 {transition-timing-function: ease-in-out;background-color: darkorange;}
+
+      #div6 {transition: width 3s, height 5s;}
+      #div6:hover {width: 300px; height: 300px; background-color: fuchsia;}
+
+      #div7 {
+        background: black;
+        transition: width 2s, height 2s, transform 4s;
+      }
+      #div7:hover {
+        width: 300px;
+        height: 300px;
+        transform: rotate(180deg);
+        /* transition-property: width;
+        transition-duration: 2s;
+        transition-timing-function: linear;
+        transition-delay: 1s; */
+      }
+
+      /* cubic-bezier(n,n,n,n) */
+      </style>
+</head>
+<body>
+  <h1>The transition Property</h1>
+
+  <div id="div0"></div>
+
+  <p>Hover over the div element below, to see the transition effect:</p>
+  
+  <div></div>
+
+  <p>Hover over the div elements below, to see the different speed curves:</p>
+
+  <div id="div1">linear</div><br>
+  <div id="div2">ease</div><br>
+  <div id="div3">ease-in</div><br>
+  <div id="div4">ease-out</div><br>
+  <div id="div5">ease-in-out</div><br>
+
+  <h1>The transition Property</h1>
+
+  <p>Hover over the div element below, to see the transition effect:</p>
+
+  <div id="div6"></div>
+
+  <h1>Transition + Transform</h1>
+
+  <p>Hover over the div element below:</p>
+
+  <div id="div7"></div>
+</body>
+</html>
