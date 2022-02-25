@@ -11,6 +11,10 @@
 	--zebra: 	hsl(135, 100%, 95%);
 }
 
+h1 {
+  text-align: center;
+}
+
 table {
 	margin: 10px auto;
 	border: thin solid var(--border);
