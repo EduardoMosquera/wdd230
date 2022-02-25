@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+
 :root {
 	--back: 	hsl(188, 35%, 63%);
   --back2: 	hsl(203, 28%, 52%);
-  --foredark: hsla(0,0%,10%,1);
-	--forelight: 	hsl(160, 23%, 92%);
-	--border: hsl(0,0%,20%);
-	--borderlight: hsl(0,0%,33%);
+	--border: hsl(150, 2%, 78%);
+	--borderlight: hsl(150, 2%, 78%);
 	--shadow: hsl(203, 27%, 56%);
 	--zebra: 	hsl(135, 100%, 95%);
 }
@@ -30,16 +32,19 @@ tr:first-child th {
 	background-color: var(--back);
 	color: Black;
   font-size: 32px;
+  font-weight: 800;
 }
 
 th, td {
 	padding: 7px 15px;
 	border: 1px solid var(--borderlight);
+  font-family: "Open Sans", Ubuntu, sans-serif;
 }
 
 th {
 	background-color: var(--back2);
   color: white;
+  font-weight: bolder;
 }
 
 td {
@@ -57,4 +62,8 @@ tbody tr:nth-child(odd) {
 #highlight {
   background-color: 	hsl(203, 28%, 52%);
   color: white;
+}
+
+#cursive {
+  font-style: italic;
 }
