@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Daule Chamber of Commerce site">
+    <link rel="shortcut icon" href="images/favicon (1).ico">
+    <!-- CSS files -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/join.css">
+    <!-- Pre load other related pages -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Exo&amp;family=Merriweather+Sans&amp;display=swap" rel="stylesheet">   
+    <link href="https://fonts.googleapis.com/css2?family=Exo&amp;display=swap" rel="stylesheet">
+    <title>Daule Chamber of Commerce</title>
+
+  </head>
+
+<body>
+  <div id="banner">
+    <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+  </div>
+  <header>
+      <nav>
+          <a href="index.html"><img class="headerLogo" src="images/logo_pink&white.png" alt="chamber logo" width="100"></a>      
+          <div class="social">
+              <img class="facebook" src="images/facebook_white.png" alt="facebook icon" width="24" height="24">
+              <img class="linkdin" src="images/linkedin_white.png" alt="linkedin icon" width="24" height="24">
+          </div>
+          
+          <!-- Hamburguer Menu -->
+
+          <ul class="navigation">
+              <li><a class="ham" href="#"></a></li>
+                <li><a class="homebtn" href="index.html">Home</a></li>
+                <li><a class="discoverbtn" href="discover.html">Discover</a></li>
+                <li><a class="directbtn" href="#">Directory</a></li>
+                <li><a class="joinnbtn" href="join.html">Join</a></li>
+                <li><a class="contacttbtn" href="#">Contact</a></li>
+          </ul> 
+      </nav>
+      <aside></aside>
+      
+  </header>
+
+  <main class="join">
+    <h1>Join the Chamber of Commerce</h1>
+        <form method="get" action="thankyou.html">
+          <div class="form">
+            <fieldset class="pi">
+                <legend>Personal Information</legend>
+                <label class="info">First Name* <input type="text" name="fname" required></label>
+                <label class="info">Last Name* <input type="text" name="lname" required></label>
+                <label class="info">Title <input type="text" name="title" pattern="([\p{L}\s-]){7,}" placeholder="Position" ></label>
+                <label class="info">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="info">Phone* <input type="tel" name="phone" placeholder="12355551234" required></label>
+            </fieldset>
+            <fieldset class="bi">
+                <legend>Business Information</legend>
+                <label class="info">Business Name* <input type="text" name="bName" required></label>
+                <label class="info">Business Description<textarea name="description" placeholder="Brief description of business"></textarea></label>   
+                <input type="hidden" name="datetime" id="todayDate">
+            </fieldset>
+            <fieldset class="ml">
+                <legend>Membership Level</legend>
+                <label class="level"><input type="radio" name="level" value="NP" required> NP Membership</label>
+                <label class="level"><input type="radio" name="level" value="bronze"> Bronze Membership</label>
+                <label class="level"><input type="radio" name="level" value="silver"> Silver Membership</label>
+                <label class="level"><input type="radio" name="level" value="gold"> Gold Membership</label>
+            </fieldset>
+            <aside>
+                <div class="benefits">
+                    <h2>Membership Benefits</h2>
+                    <h3>🏅 NP Membership</h3>
+                    <ul>
+                        <li>No fee</li>
+                        <li>Business listing in our directory</li>
+                        <li>Email to receive notifications all about chamber</li>
+                    </ul>
+                    <h3>🥉 Bronze Membership</h3>
+                    <ul>
+                        <li>Annual cost: $50</li>
+                        <li>Business listing in our directory</li>
+                        <li>Add credibility to your business</li>
+                        <li>Company spotlight on our website</li>
+                        <li>Email to receive notifications all about chamber</li>
+                    </ul>
+                    <h3>🥈 Silver Membership</h3>
+                    <ul>
+                        <li>Annual Cost: $100</li>
+                        <li>Business listing in our directory</li>
+                        <li>Add credibility to your business</li>
+                        <li>Company spotlight on our website</li>
+                        <li>Build awareness of your business through cost-effective advertising</li>
+                    </ul>
+                    <h3>🥇 Gold Membership</h3>
+                        <ul>
+                            <li>Annual Cost: $200</li>
+                            <li>Business listing in our directory</li>
+                            <li>Add credibility to your business</li>
+                            <li>Company spotlight on our website</li>
+                            <li>Build awareness of your business through cost-effective advertising</li>
+                            <li>Access to resources, discounts, and relationships</li>
+                            <li>Attend educational and training workshops</li>
+                        </ul>
+                </div>
+            </aside>
+          </div>
+            <label class="submit"><input type="submit" value="Join Now"  class="submitBtn"></label>
+        </form>
+    
+  </main>
+
+
+  <footer>
+    <div class="chamberInfo">
+        <img class="footerLogo" src="images/logo_white_medium.png" alt="chamber logo" width="109" height="122">
+        <p class="compName">Daule Chamber of Commerce</p>
+        <p class="address">Av. Francisco de Orellana and Miguel H. Alcívar. <br> Daule, Ecuador </p>
+        <p class="cntctInfo">info@daulechamber.org <br> PBX: +593 4 2596100</p>
+        <a class="map" href=https://www.google.com/maps/place/La+Aurora/@-2.0164877,-79.9337718,13z/data=!3m1!4b1!4m5!3m4!1s0x902d1235e41598c3:0xe01a64c5da7c307!8m2!3d-2.0518903!4d-79.8793833>📍 Location Map</a>
+    </div>
+    <hr style="width:90%;text-align:center;">
+    <div class="authoredInfo">
+        <p><span class="currentyear">© 2022 Daule Chamber of Commerce</span></p>
+        <p><span class="bar">|</span></p>  
+        <p><span class="name">Eduardo Mosquera</span></p>
+        <p><span class="bar1">|</span></p>
+        <p>WDD 230 Project</p>
+        <p><span class="bar2">|</span></p>
+        <div id="lastUpdate"></div>
+        <script>
+          document.querySelector(
+            "#lastUpdate"
+          ).textContent = `Last Update: ${document.lastModified}`;
+          </script>
+     </div>      
+</footer>
+<script src="js/scripts.js"></script>
+<script src="js/lazyload.js"></script>
+<script src="js/visit.js"></script>
+</body>
+  
+</html>
