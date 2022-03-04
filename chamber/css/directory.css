@@ -20,6 +20,7 @@ section {
 
 h1 {
   margin-bottom: 0;
+  text-align: center;
 }
 
 p {
@@ -45,6 +46,18 @@ div.directoryBttn a:link, a:visited {
   font-size: 50px;
   background-color: rgb(21, 28, 94);
   color: white;
+  border-radius: 5px;
+  padding: 0.1em;
+  margin-left: 1.5em;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+div.directoryBttn a.list {
+  font-size: 44px;
+  padding-top: 12px;
+  padding-bottom: 6px;
+  margin-left: 1em;
 }
 
 
