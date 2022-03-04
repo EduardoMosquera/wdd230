@@ -3,14 +3,14 @@
     {
       "name": "Komunidad Digital",
       "address": "La Aurora, Av. León Febres Cordero",
-      "phone": "+593 991814731",
+      "phone": "+593 99 181 4731",
       "website": "komunidad.digital.ec",
       "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/kd.png"
     },
     {
       "name": "Mascotas",
       "address": "El Dorado, Av León Febres Cordero Ribadeneyra 212b, Samborondón 170513",
-      "phone": "+593 991814731",
+      "phone": "+593 99 181 4731",
       "website": "mascotas.kom.ec",
       "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/mascotas.png"
     },
@@ -19,40 +19,40 @@
       "address": "Eloy Alfaro N44 -406 y De las Higueras",
       "phone": "+593 02 - 6002400",
       "website": "https://www.xtrim.com.ec/?ciudad=guayaquil",
-      "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/tvcable.png"
+      "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/Xtrim.png"
     },
     {
       "name": "Madeconst S.A",
       "address": "El Transito, Solar 15 - 2 km 10.5 Vía Puntilla",
-      "phone": "+593 984361376",
+      "phone": "+593 98 436 1376",
       "website": "https://www.madeconst.com/",
       "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/madeconst.jpg"
     },
     {
       "name": "Parfi Ingenieros Inspectores Asociados C.Ltda.",
       "address": "Manzana Letra I, Solar 30-31, Fincas Vacacionales Delia",
-      "phone": "+593 99 9962571",
+      "phone": "+593 99 996 2571",
       "website": "http://parfi.com.ec/",
       "imageurl": "https://www.mycruiseship.info/media/fs/logos-comp/000321.jpg"
     },
     {
       "name": "Bodas",
       "address": "Piazza La Joya - 1.5 km Vía Puntilla",
-      "phone": "+593 651865199",
+      "phone": "+593 95 186 5199",
       "website": "bodas.kom.ec",
       "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/bodas.png"
     },
     {
       "name": "Inversiones by KD",
       "address": "Villa Club - Nueva Plaza",
-      "phone": "+593 457862453",
+      "phone": "+593 95 786 2453",
       "website": "14 May 1945",
       "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/inversiones.png"
     },
     {
       "name": "Sin Estrés",
       "address": "Avalon Plaza, La Aurora",
-      "phone": "+593 58896713",
+      "phone": "+593 98 896 713",
       "website": "sin-estres.kom.ec",
       "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/sinestres.png"
     },
@@ -71,18 +71,18 @@
       "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/veris.png"
     },
     {
-      "name": "Harold B.",
-      "address": "Lee",
-      "phone": "28 March 1899",
-      "website": "26 December 1973",
-      "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/harold-b-lee-37763-gallery.jpg"
+      "name": "Naturissimo",
+      "address": "Piazza La Joya",
+      "phone": "(04) 500-0166",
+      "website": "https://www.naturissimo.com/",
+      "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/naturissimo.png"
     },
     {
-      "name": "Spencer W.",
+      "name": "Prosegur",
       "address": "Kimball",
-      "phone": "28 March 1895",
-      "website": "5 November 1985",
-      "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/spencer-w-kimball-82918-gallery.jpg"
+      "phone": "+593 96 262 2324",
+      "website": "https://www.prosegur.ec/",
+      "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/prosegur.png"
     }
   ]
 }
