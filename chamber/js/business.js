@@ -33,11 +33,12 @@ function displayProphets(prophet) {
     portrait.setAttribute('loading', 'lazy');
   
     // Add/append the section(card) with the businessName element
+    card.appendChild(portrait);
     card.appendChild(businessName);
     card.appendChild(address);
     card.appendChild(birthday);
     card.appendChild(birthPlace);
-    card.appendChild(portrait);
+    
   
     // Add/append the existing HTML div with the cards class with the section(card)
     document.querySelector('div.cards').appendChild(card);
