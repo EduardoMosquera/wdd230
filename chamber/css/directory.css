@@ -7,35 +7,37 @@ main {
 }
 
 section {
-  text-align: center;
-  margin: 0;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  
-  padding: 35px;
-  gap: 20px;
+  width: 350px;
+  height: 300px;
+  align-self: center;
+  justify-self: center;
+  margin: 1em auto;
+  text-align: center;
+  padding: .75em 0;
+  align-self: center;
+  justify-self: center;
 }
 
 h1 {
   margin-bottom: 0;
-  color: blue;
 }
 
 p {
-  margin: 0;
+  margin: 10px;
+  padding: 0;
 }
 
 div.cards img {
-  width: 50%;
-  margin-top: 10px;
-  text-align: center;
-  margin-bottom: 30px;
+  max-height: 100px;
+  max-width: 200px;
+  vertical-align: baseline;
 }
 
 .cards {
-  border: 1px solid #ccc;
-  padding: 2em;
-  margin: 2em;
+  margin: 0 auto;
+  text-align: center;
 }
 
 div.directoryBttn a:link, a:visited {

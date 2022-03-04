@@ -11,21 +11,21 @@
       "name": "Parfi Ingenieros Inspectores Asociados C.Ltda.",
       "address": "Manzana Letra I, Solar 30-31, Fincas Vacacionales Delia",
       "phone": "+593 99 996 2571",
-      "website": "http://parfi.com.ec/",
+      "website": "parfi.com.ec",
       "imageurl": "https://www.mycruiseship.info/media/fs/logos-comp/000321.jpg"
     },
     {
       "name": "TV Cable",
       "address": "Eloy Alfaro N44 -406 y De las Higueras",
       "phone": "+593 02 - 6002400",
-      "website": "https://www.xtrim.com.ec/?ciudad=guayaquil",
+      "website": "www.xtrim.com.ec",
       "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/Xtrim.png"
     },
     {
       "name": "Madeconst S.A",
       "address": "El Transito, Solar 15 - 2 km 10.5 Vía Puntilla",
       "phone": "+593 98 436 1376",
-      "website": "https://www.madeconst.com/",
+      "website": "www.madeconst.com",
       "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/tfc.png"
     },
     {
@@ -46,7 +46,7 @@
       "name": "Inversiones by KD",
       "address": "Villa Club - Nueva Plaza",
       "phone": "+593 95 786 2453",
-      "website": "14 May 1945",
+      "website": "inversiones.kom.ec",
       "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/inversiones.png"
     },
     {
@@ -60,28 +60,28 @@
       "name": "Casa Laguna Real Estate",
       "address": "Edificio La Previsora Piso 27, Of. 2.",
       "phone": "(04)+3704790",
-      "website": "https://casalaguna.com.ec/",
+      "website": "casalaguna.com.ec",
       "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/casalaguna.png"
     },
     {
       "name": "Veris ",
       "address": "Centro Comercial Riocentro El Dorado Local 35 PB.",
       "phone": "600 9 600",
-      "website": "https://www.veris.com.ec/",
+      "website": "www.veris.com.ec",
       "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/veris.png"
     },
     {
       "name": "Naturissimo",
       "address": "Piazza La Joya",
       "phone": "(04) 500-0166",
-      "website": "https://www.naturissimo.com/",
+      "website": "www.naturissimo.com",
       "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/naturissimo1.png"
     },
     {
       "name": "Prosegur",
       "address": "Kimball",
       "phone": "+593 96 262 2324",
-      "website": "https://www.prosegur.ec/",
+      "website": "www.prosegur.ec",
       "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/prosegur.png"
     }
   ]
