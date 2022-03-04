@@ -32,7 +32,7 @@ p {
 div.cards img {
   max-height: 100px;
   max-width: 200px;
-  vertical-align: baseline;
+  margin-bottom: 20px;
 }
 
 .cards {
