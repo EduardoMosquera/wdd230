@@ -29,7 +29,7 @@ function displayProphets(prophet) {
 
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
     portrait.setAttribute('src', prophet.imageurl);
-    portrait.setAttribute('alt', 'Portait of ' + prophet.name + ' ' + prophet.address);
+    portrait.setAttribute('alt', 'Logo of ' + prophet.name);
     portrait.setAttribute('loading', 'lazy');
   
     // Add/append the section(card) with the businessName element

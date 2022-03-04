@@ -12,21 +12,21 @@
       "address": "El Dorado, Av León Febres Cordero Ribadeneyra 212b, Samborondón 170513",
       "phone": "+593 991814731",
       "website": "komunidad.digital.ec/mascotas",
-      "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/mascotas.png"
+      "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/mascota.png"
     },
     {
-      "name": "John",
-      "address": "Taylor",
-      "phone": "01 November 1808",
-      "website": "25 July 1887",
-      "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/john-taylor-82909-gallery.jpg"
+      "name": "TV Cable",
+      "address": "Eloy Alfaro N44 -406 y De las Higueras",
+      "phone": "+593 02 - 6002400",
+      "website": "https://www.xtrim.com.ec/?ciudad=guayaquil",
+      "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/tvcable.png"
     },
     {
-      "name": "Wilford",
-      "address": "Woodruff",
-      "phone": "01 March 1807",
-      "website": "02 September 1898",
-      "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/wilford-woodruff-82910-gallery.jpg"
+      "name": "Madeconst S.A",
+      "address": "El Transito, Solar 15 - 2 km 10.5 Vía Puntilla - Salitre - Daule - Guayas",
+      "phone": "+593 984361376",
+      "website": "https://www.madeconst.com/",
+      "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/madeconst.jpg"
     },
     {
       "name": "Lorenzo",
