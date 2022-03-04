@@ -11,7 +11,7 @@
       "name": "Mascotas",
       "address": "El Dorado, Av León Febres Cordero Ribadeneyra 212b, Samborondón 170513",
       "phone": "+593 991814731",
-      "website": "komunidad.digital.ec/mascotas",
+      "website": "mascotas.kom.ec",
       "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/mascota.png"
     },
     {
@@ -23,38 +23,38 @@
     },
     {
       "name": "Madeconst S.A",
-      "address": "El Transito, Solar 15 - 2 km 10.5 Vía Puntilla - Salitre - Daule - Guayas",
+      "address": "El Transito, Solar 15 - 2 km 10.5 Vía Puntilla",
       "phone": "+593 984361376",
       "website": "https://www.madeconst.com/",
       "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/madeconst.jpg"
     },
     {
-      "name": "Lorenzo",
-      "address": "Snow",
-      "phone": "03 April 1814",
-      "website": "19 October 1901",
-      "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/lorenzo-snow-82911-gallery.jpg"
+      "name": "Parfi Ingenieros Inspectores Asociados C.Ltda.",
+      "address": "Manzana Letra I, Solar 30-31, Fincas Vacacionales Delia",
+      "phone": "+593 99 9962571",
+      "website": "http://parfi.com.ec/",
+      "imageurl": "https://www.mycruiseship.info/media/fs/logos-comp/000321.jpg"
     },
     {
-      "name": "Joseph F.",
-      "address": "Smith",
-      "phone": "12 November 1838",
-      "website": "19 November 1918",
-      "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/joseph-f-smith-82912-gallery.jpg"
+      "name": "Bodas",
+      "address": "Piazza La Joya - 1.5 km Vía Puntilla",
+      "phone": "+593 651865199",
+      "website": "bodas.kom.ec",
+      "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/bodas.png"
     },
     {
-      "name": "Heber J.",
-      "address": "Grant",
-      "phone": "22 November 1856",
+      "name": "Inversiones by KD",
+      "address": "Villa Club - Nueva Plaza",
+      "phone": "+593 457862453",
       "website": "14 May 1945",
-      "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/heber-j-grant-82913-gallery.jpg"
+      "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/inversiones.png"
     },
     {
-      "name": "George A.",
-      "address": "Smith",
-      "phone": "4 April 1870",
-      "website": "4 April 1951",
-      "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/george-albert-smith-82914-gallery.jpg"
+      "name": "Sin Estrés",
+      "address": "Avalon Plaza, La Aurora",
+      "phone": "+593 58896713",
+      "website": "sin-estres.kom.ec",
+      "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/sinestres.png"
     },
     {
       "name": "David O.",
