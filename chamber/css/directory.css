@@ -6,7 +6,7 @@ main {
   flex-direction: column;
 }
 
-section {
+section.grid {
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 350px;
@@ -40,26 +40,39 @@ div.cards img {
   text-align: center;
 }
 
-div.directoryBttn a:link, a:visited {
+button {
   text-align: center;
   text-decoration: none;
   font-size: 50px;
   background-color: rgb(21, 28, 94);
-  color: white;
+  color: #ccc;
   border-radius: 5px;
   padding: 0.1em;
-  margin-left: 1.5em;
+  margin-left: 19%;
   padding-left: 15px;
   padding-right: 15px;
 }
 
-div.directoryBttn a.list {
+button:hover {
+  background-color: rgb(15, 21, 70);
+  color: white;
+}
+
+button:focus, button:active {
+  background-color: rgb(15, 21, 70);
+  color: white;
+}
+
+div.directoryBttn button.list {
   font-size: 44px;
   padding-top: 12px;
   padding-bottom: 6px;
-  margin-left: 1em;
+  /* margin-left: 1em; */
 }
 
+.directory section.list img {
+  display: none;
+}
 
 @media only screen and (min-width: 37.5em) {
 
@@ -67,9 +80,19 @@ div.directoryBttn a.list {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       grid-gap: 5px;
+      margin-top: 30px;
   }
   section {
       margin: 0;
+  }
+
+  div.directoryBttn button.grid {
+    margin-left: 39%;
+  }
+
+  div.directoryBttn button.list {
+    align-self: center;
+    margin-left: 4%;
   }
 }
 
@@ -77,6 +100,10 @@ div.directoryBttn a.list {
 
   .cards {
       grid-template-columns: repeat(4, 1fr);
+  }
+
+  div.directoryBttn button.grid {
+    margin-left: 42%;
   }
   
 }

@@ -43,3 +43,25 @@ function displayProphets(prophet) {
     // Add/append the existing HTML div with the cards class with the section(card)
     document.querySelector('div.cards').appendChild(card);
   }
+
+  let view
+
+  function gridView() {
+      view = document.getElementsByTagName('section');
+      for (let i=0; i < view.length; i++) {
+          view[i].className = view[i].className.replace("list", "grid");
+          }
+      }
+      
+  function listView() {
+      view = document.getElementsByTagName('section');    
+      for (let i=0; i < view.length; i++) {
+          view[i].className = view[i].className.replace("grid", "list");
+          }
+      }
+  
+  const gridBtn = document.getElementsByClassName("grid");
+  gridBtn.onclick = gridView;
+  
+  const listBtn = document.getElementsByClassName("list");
+  listBtn.onclick = listView;
