@@ -30,7 +30,8 @@ p {
 div.cards img {
   max-height: 100px;
   max-width: 200px;
-  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .cards {

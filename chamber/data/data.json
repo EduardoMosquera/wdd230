@@ -30,7 +30,7 @@
     },
     {
       "name": "Mascotas",
-      "address": "El Dorado, Av León Febres Cordero Ribadeneyra 212b, Samborondón 170513",
+      "address": "El Dorado, Av León Febres Cordero",
       "phone": "+593 99 181 4731",
       "website": "mascotas.kom.ec",
       "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/mascotas.png"
@@ -65,7 +65,7 @@
     },
     {
       "name": "Veris ",
-      "address": "Centro Comercial Riocentro El Dorado Local 35 PB.",
+      "address": "Centro Comercial Riocentro El Dorado",
       "phone": "600 9 600",
       "website": "www.veris.com.ec",
       "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/veris.png"
