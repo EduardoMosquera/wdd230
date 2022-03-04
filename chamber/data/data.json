@@ -12,7 +12,7 @@
       "address": "El Dorado, Av León Febres Cordero Ribadeneyra 212b, Samborondón 170513",
       "phone": "+593 991814731",
       "website": "mascotas.kom.ec",
-      "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/mascota.png"
+      "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/mascotas.png"
     },
     {
       "name": "TV Cable",
@@ -57,18 +57,18 @@
       "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/sinestres.png"
     },
     {
-      "name": "David O.",
-      "address": "McKay",
-      "phone": "8 September 1873",
-      "website": "18 January 1970",
-      "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/david-o-mckay-82915-gallery.jpg"
+      "name": "Casa Laguna Real Estate",
+      "address": "Edificio La Previsora Piso 27, Of. 2.",
+      "phone": "(04)+3704790",
+      "website": "https://casalaguna.com.ec/",
+      "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/casalaguna.png"
     },
     {
-      "name": "Joseph Fielding",
-      "address": "Smith",
-      "phone": "19 July 1876",
-      "website": "2 July 1972",
-      "imageurl": "https://media.ldscdn.org/images/media-library/teachings-of-presidents-of-the-church/joseph-fielding-smith/joseph-fielding-smith-82916-gallery.jpg"
+      "name": "Veris ",
+      "address": "Centro Comercial Riocentro El Dorado Local 35 PB.",
+      "phone": "600 9 600",
+      "website": "https://www.veris.com.ec/",
+      "imageurl": "https://eduardomosquera.github.io/wdd230/chamber/images/directory/veris.png"
     },
     {
       "name": "Harold B.",
