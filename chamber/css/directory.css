@@ -28,14 +28,14 @@ p {
   padding: 0;
 }
 
-div.cards img {
+#cards img {
   max-height: 100px;
   max-width: 200px;
   margin-top: 15px;
   margin-bottom: 15px;
 }
 
-.cards {
+#cards {
   margin: 0 auto;
   text-align: center;
 }
@@ -63,14 +63,14 @@ button:focus, button:active {
   color: white;
 }
 
-div.directoryBttn button.list {
+#list {
   font-size: 44px;
   padding-top: 12px;
   padding-bottom: 6px;
   /* margin-left: 1em; */
 }
 
-.directory section.list img {
+#list img {
   display: none;
 }
 
@@ -80,7 +80,7 @@ div.directoryBttn button.list {
 
 @media only screen and (min-width: 37.5em) {
 
-  .cards {
+  #cards {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       grid-gap: 5px;
@@ -90,11 +90,11 @@ div.directoryBttn button.list {
       margin: 0;
   }
 
-  div.directoryBttn button.grid {
+  #grid {
     margin-left: 39%;
   }
 
-  div.directoryBttn button.list {
+  #list {
     align-self: center;
     margin-left: 4%;
   }
@@ -102,11 +102,11 @@ div.directoryBttn button.list {
 
 @media only screen and (min-width: 60em) {
 
-  .cards {
+  #cards {
       grid-template-columns: repeat(4, 1fr);
   }
 
-  div.directoryBttn button.grid {
+  #grid {
     margin-left: 42%;
   }
   
