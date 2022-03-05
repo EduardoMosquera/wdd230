@@ -20,8 +20,16 @@ window.onresize = () => {if (window.innerWidth > 960) mainnav.classList.remove('
 
 
 // Banner
-const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-let day = weekday[now.getDay()];
+const bannerfill = document.getElementById('banner');
+const todayDate = new Date();
+const dow = todayDate.getDay();
+if (dow == 1 || dow == 2) {
+    bannerfill.style.display = "block";
+}
+else {
+    bannerfill.style.display = "none";
+}
+
 
 // function toggleBanner(){
   
