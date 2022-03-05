@@ -20,7 +20,7 @@ function displayCard(biz) {
     let businessName = document.createElement('p');
     let address = document.createElement('p');
     let phoneNum = document.createElement('p');
-    let website = document.createElement('p');
+    let website = document.createElement('a');
     let portrait = document.createElement('img');
   
     // Change the textContent property of the h2 element to contain the biz's full name
