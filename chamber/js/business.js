@@ -90,13 +90,13 @@ function displayCard(biz) {
 // listBtn.onclick = listView;
 
 function toggleView() {
-  document.getElementById('cardviewBtn').classList.toggle("open");
-  document.getElementById('listviewBtn').classList.toggle("open");
- document.getElementById('bizdir').classList.toggle("open");    
+  document.getElementById('grid').classList.toggle("open");
+  document.getElementById('list').classList.toggle("open");
+ document.getElementById('cards').classList.toggle("open");    
 }
 
-const lv = document.getElementById('listviewBtn');
+const lv = document.getElementById('list');
 lv.onclick = toggleView;
 
-const c = document.getElementById('cardviewBtn');
+const c = document.getElementById('grid');
 c.onclick = toggleView;
