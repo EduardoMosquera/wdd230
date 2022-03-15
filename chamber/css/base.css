@@ -109,7 +109,7 @@ main div.hero{
   position: absolute;
   color: white;
   text-shadow: 2px 0 0 rgb(21, 28, 94), -2px 0 0 rgb(21, 28, 94), 0 2px 0 rgb(21, 28, 94), 0 -2px 0 rgb(21, 28, 94), 1px 1px rgb(21, 28, 94), -1px -1px 0 rgb(21, 28, 94), 1px -1px 0 rgb(21, 28, 94), -1px 1px 0 rgb(21, 28, 94);
-  text-decoration: overline;
+  /* text-decoration: overline; */
   top: .1rem;
   left: .1rem;
   padding: .5rem .5rem;
