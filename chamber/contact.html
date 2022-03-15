@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
-    <link rel="stylesheet" href="css/join.css">
+    <link rel="stylesheet" href="css/contact.css">
     <!-- Pre load other related pages -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
@@ -41,16 +41,51 @@
                 <li><a class="discoverbtn" href="discover.html">Discover</a></li>
                 <li><a class="directbtn" href="directory.html">Directory</a></li>
                 <li><a class="joinnbtn" href="join.html">Join</a></li>
-                <li><a class="contacttbtn" href="contact.html">Contact</a></li>
+                <li><a class="contacttbtn" href="#">Contact</a></li>
           </ul> 
       </nav>
       <aside></aside>
       
   </header>
 
-  <main class="thankyou">
-    <h1 class="thankyouTitle">Welcome to the family!</h1>
-    <p class="thankyouText">We want to thank you for joining us, we are excited to grow up together... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam iaculis eros vel lacus malesuada, eu mollis dui sollicitudin. Donec tempor ut sapien luctus interdum. Duis at sem vel magna pellentesque dictum. Nunc quis diam eget felis sodales efficitur. Morbi bibendum tempus mattis. Quisque imperdiet odio eu lectus eleifend, et scelerisque metus interdum. Donec ultrices, nisi eget laoreet convallis, dolor neque sodales nibh, ut finibus nulla mauris in magna. Nunc ut ipsum non turpis varius tempus id aliquet lectus. Vivamus ut arcu porta, imperdiet ex ut, tristique nibh. Nunc sed ultricies tellus. Donec laoreet condimentum diam, vel pellentesque arcu tincidunt quis. Pellentesque odio dui, convallis at fermentum sit amet, facilisis nec nunc.</p>
+  <main class="contact">
+    <div class="mapouter"><div class="gmap_canvas"><iframe width="800" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=la%20aurora,%20ecuador&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com/divi-discount/"></a><br><style>.mapouter{position:relative;text-align:right;height:300px;width:800px;}</style><a href="https://www.embedgooglemap.net">google embed</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:300px;width:800px;}</style></div></div>
+    <div class="placeInfo">
+      <h1>Visit Us</h2>
+      <hr style="width:90%;text-align:center;">
+      <p>
+        Chamber Commerce of Daule <br>
+        Av. Francisco de Orellana and Miguel H. Alcívar. <br>
+        Daule, Ecuador</p>
+        <br>
+        Monday – Thursday: 9:00 a.m. to 4:30 p.m. <br>
+        Friday: By Appointment Only</p>
+    </div>
+
+    <div class="contactPoints">
+      <h1>Points of contact</h2>
+      <hr style="width:90%;text-align:center;">
+      <p>
+        Carlos Perez <br>
+        Operations Assistant <br>
+        +593 098-186-531 <br>
+        <br>
+        info@daulechamber.org <br>
+        PBX: +593 4 2596100</p>
+    </div>
+    
+    <form method="get" action="thankscontact.html">
+      <fieldset>
+          <legend>Contact Information</legend>
+          <hr style="width:90%;text-align:center;">
+          <label class="info">Name* <input type="text" name="fullname" placeholder="Joe Smith"required></label>
+          <label class="info">Organization <input type="text" name="organization" placeholder="Company, Inc"></label>
+          <label class="info">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+          <label class="info">Phone* <input type="tel" name="phone" placeholder="(000) 000-0000" required></label>
+          <label class="info">Comments/Questions<textarea name="description" placeholder="Type comments here..."></textarea></label>   
+      </fieldset>
+      <label class="csubmit"><input type="submit" value="Get me in touch"  class="submitBtn"></label>
+
   </main>
 
 
