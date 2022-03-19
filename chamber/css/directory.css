@@ -127,6 +127,10 @@ button.open {
   justify-self: center;
 }
 
+#cards.open section:nth-child(1){
+  margin-top: 30px;
+}
+
 #cards.open p, a {
   margin: auto;
   margin-left: 10px;

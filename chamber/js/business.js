@@ -1,5 +1,4 @@
 const requestURL = 'https://eduardomosquera.github.io/wdd230/chamber/data/data.json';
-// const cards = document.querySelector('.cards');
 
 fetch(requestURL)
   .then(function (response) {
@@ -9,8 +8,6 @@ fetch(requestURL)
     const business = jsonObject['business'];
    
     business.forEach(displayCard);
-    //Added this line
-    // business.forEach(displayList);
   });
 
 
@@ -47,56 +44,18 @@ function displayCard(biz) {
   }
 
 
-// Get the elements with class="cards" and "lists"
+function gridView() {
+  document.getElementById('grid').classList.add("open");
+  document.getElementById('cards').classList.remove("open");
+}
 
-// var elements = document.getElementsByClassName("cards");
-// var listelement = document.getElementsByClassName("lists");
-
-// Declare a loop variable
-// var i;
-// var e;
-
-// List View
-// function listView() {
-//   for (i = 0; i < elements.length; i++) {
-//     elements[i].style.visibility = 'hidden';
-//     listelement[e].style.display = "block";
-//   }
-// }
-
-// Grid View
-// function gridView() {
-//   for (i = 0; i < elements.length; i++) {
-//     elements[i].style.width = "100%";
-//     elements[i].style.visibility = 'visible';
-//   }
-// }
-
-/* Optional: Add active class to the current button (highlight it) */
-// var container = document.getElementById("directoryBttn");
-// var btns = container.getElementsByClassName("list");
-// for (var i = 0; i < btns.length; i++) {
-//   btns[i].addEventListener("click", function() {
-//     var current = document.getElementsByClassName("grid");
-//     current[0].className = current[0].className.replace(" grid", "");
-//     this.className += " grid";
-//   });
-// }
-
-// const gridBtn = document.getElementById("grid");
-// gridBtn.onclick = gridView;
-
-// const listBtn = document.getElementById("list");
-// listBtn.onclick = listView;
-
-function toggleView() {
-  document.getElementById('grid').classList.toggle("open");
-  document.getElementById('list').classList.toggle("open");
- document.getElementById('cards').classList.toggle("open");    
+function listView() {
+  document.getElementById('cards').classList.add("open");
+  document.getElementById('grid').classList.remove("open");
 }
 
 const lv = document.getElementById('list');
-lv.onclick = toggleView;
+lv.onclick = listView;
 
 const c = document.getElementById('grid');
-c.onclick = toggleView;
+c.onclick = gridView;
