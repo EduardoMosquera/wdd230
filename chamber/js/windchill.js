@@ -26,8 +26,13 @@ async function getWeather() {
 
     windSpeed.textContent = `${speed} kph`;
 
-    roundChill = Math.round(chill)
-    windChill.textContent += `${roundChill} °C`;
+    let wchill = 35.74+0.6215*Temp-35.75*(windSpeed**0.16)+0.4275*Temp*(windSpeed**(0.16));
+    if (Temp > 10 || windSpeed < 4.8) {
+        windChill.textContent = "N/A";
     }
-    
+    else {
+        var strChill = wchill.toFixed(0) + "º C";
+        windChill.textContent = strChill;
+    }
+    }
 getWeather();
