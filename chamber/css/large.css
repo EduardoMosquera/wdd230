@@ -131,6 +131,11 @@
   }
 
 	/* Spots */
+  main .placeholder div.spotOne h2, div.spotTwo h2, div.spotThree h2{
+    font-size: 24px;
+    margin: auto;
+  }
+
 	main .placeholder .spotOne p, .spotTwo p, .spotThree p{
 		padding: 0;
   }
