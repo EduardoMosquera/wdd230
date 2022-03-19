@@ -1,20 +1,31 @@
-// initialize display elements
-const visitsDisplay = document.querySelector(".visits");
 
-// get the stored value in localStorage
-let numVisits = Number(window.localStorage.getItem("visits-ls"));
-let dateVisited = Number(window.localStorage.getItem("last-visit"));
+let lastvisit = Number(window.localStorage.getItem('last-visit-date'));
 
+if (lastvisit != 0) {
 
-dateVisited = new Date();
+  let thisvisit = Date.now();
 
-// increment the number of visits.
-todayDate = new Date - dateVisited;
-// store the new number of visits value
-localStorage.setItem("last-visit", dateVisited);
+  let FACTOR = 86400000;
 
-// show todays date.
-lastVisit = Date.now()
+  let daysBetween = (thisvisit - lastvisit) / FACTOR;
 
-let days = Math.round(Date.now() - lastVisit);
-visitsDisplay.textContent = days;
+  if (daysBetween.toFixed(0) != 1) {
+
+    document.querySelector('#lastvisit').textContent = 'It has been ' + daysBetween.toFixed(0) + ' days since your last visit.';
+
+    window.localStorage.setItem('last-visit-date', thisvisit);
+  
+  } else {
+
+    document.querySelector('#lastvisit').textContent = 'It has been ' + daysBetween.toFixed(0) + ' day since your last visit.';
+
+    window.localStorage.setItem('last-visit-date', thisvisit);
+     
+  }
+
+} else {
+
+  window.localStorage.setItem('last-visit-date', Date.now());
+  document.querySelector('#lastvisit').textContent = 'This is your first visit! Welcome!';
+
+}

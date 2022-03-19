@@ -169,13 +169,18 @@
 
 	.placeholder div.spotTwo img, div.spotThree img {
 		margin: -10px;
-		margin-top: -20px;
+		margin-top: 20px;
+    margin-bottom: 20px;
   }
 
 	.placeholder div.spotOne img {
 		margin: -10px;
-		margin-top: -30px;
-		margin-bottom: -30px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+  }
+
+  .placeholder hr {
+    display: block;
   }
 
 	/* Join Us */

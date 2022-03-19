@@ -90,8 +90,12 @@
     margin: 0;
   }
 
-  .placeholder div.spotTwo img {
+  .placeholder div.spotOne img, div.spotTwo img {
       margin: 34px;
+  }
+
+  .placeholder hr {
+    display: none;
   }
 
   /* Join Us */

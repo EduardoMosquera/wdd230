@@ -1,5 +1,4 @@
-debugger
-const spotlightData = 'https://rich20053.github.io/WDD230/chamber/data/data.json';
+const spotlightData = 'https://eduardomosquera.github.io/wdd230/chamber/data/data.json';
 var spotFilled = 0;
 
 function displaySpotlight(business, card) {  // Create elements to add to the document
@@ -36,7 +35,7 @@ function displaySpotlight(business, card) {  // Create elements to add to the do
     // Add/append the section(card) with the a element
     card.appendChild(a);
     // Change the textContent property of the p3 element to contain the business contact email
-    
+    p3.textContent = `${business.contact}`;
     // Add/append the section(card) with the p3 element
     card.appendChild(p3);
   } 
@@ -67,11 +66,9 @@ function findSpotlight(business) {  // Create elements to add to the document
     const response = await fetch(spotlightData);
     var bizList = await response.json();
     const shuffledList = bizList.sort((a, b) => 0.5 - Math.random());
-/*    var bestBiz = bizList.filter( sl =>
-        sl.membership == "Gold" || 
-        sl.membership == "Silver"); */
     shuffledList.forEach(findSpotlight);
   }
+
 
 
 
