@@ -86,6 +86,10 @@
     grid-template-rows: 1fr;
   }
 
+  main .placeholder div.spotOne h2, div.spotTwo h2, div.spotThree h2{
+    margin: auto;
+  }
+
   .placeholder div.spotOne, .placeholder div.spotTwo {
     margin: 0;
   }
