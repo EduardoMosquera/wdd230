@@ -7,9 +7,10 @@
       "email": "GILBE-OFF@ChurchofJesusChrist.org",
       "services": "Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
       "history": "10 April 2008 - Announced. 13 November 2010 - Groundbreaking. 2 March 2014 - Dedicated",
-      "ordinance schedule": "By appointment only",
-      "session schedule": "By appointment only",
-      "temple closure schedule": "2022: Monday, 28 March 2022 - Monday, 11 April 2022. Saturday, 1 October 2022. Monday, 3 October 2022 - Monday, 17 October 2022. Wednesday, 23 November 2022 - Thursday, 24 November 2022. Saturday, 24 December 2022. Saturday, 31 December 2022"
+      "ordinanceSchedule": "By appointment only",
+      "sessionSchedule": "By appointment only",
+      "templeClosureSchedule": "2022: Monday, 28 March 2022 - Monday, 11 April 2022. Saturday, 1 October 2022. Monday, 3 October 2022 - Monday, 17 October 2022. Wednesday, 23 November 2022 - Thursday, 24 November 2022. Saturday, 24 December 2022. Saturday, 31 December 2022",
+      "imageurl": "https://assets.ldscdn.org/1a/9b/1a9b4d17fab94f3ddfc0504cbe9bfb16ef2b3186/gilbert_arizona_temple.jpeg"
     },
     {
       "name": "Guayaquil Ecuador Temple",
@@ -18,9 +19,10 @@
       "email": "GUAYA-THO@ChurchofJesusChrist.org",
       "services": "Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
       "history": "31 March 1982 - Announced. 10 August 1996 - Groundbreaking. 1 August 1999 - Dedicated",
-      "ordinance schedule": "By appointment only",
-      "session schedule": "By appointment only",
-      "temple closure schedule": "2022: Monday, 7 March 2022 - Monday, 16 May 2022. Friday, 12 August 2022 - Monday, 15 August 2022 (Limited Operations). Thursday, 3 November 2022 - Monday, 7 November 2022 (Limited Operations)"
+      "ordinanceSchedule": "By appointment only",
+      "sessionSchedule": "By appointment only",
+      "templeClosureSchedule": "2022: Monday, 7 March 2022 - Monday, 16 May 2022. Friday, 12 August 2022 - Monday, 15 August 2022 (Limited Operations). Thursday, 3 November 2022 - Monday, 7 November 2022 (Limited Operations)",
+      "imageurl": "https://assets.ldscdn.org/f6/2f/f62f612e833d5cbc37b213a5f567681d60105043/guayaquil_ecuador_temple_lds.png"
     },
     {
       "name": "Mexico City Mexico Temple",
@@ -29,9 +31,10 @@
       "email": "MEXIC-OFF@ChurchofJesusChrist.org",
       "services": "Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
       "history": "3 April 1976 - Announced. 25 November 1979 - Groundbreaking. 2 December 1983 - Dedicated. 16 November 2008 - Rededicated. 13 September 2015- Rededicated",
-      "ordinance schedule": "By appointment only",
-      "session schedule": "By appointment only",
-      "temple closure schedule": "2022: Saturday, 2 April 2022. Monday, 27 June 2022 - Monday, 11 July 2022. Saturday, 1 October 2022. Saturday, 24 December 2022. Saturday, 31 December 2022"
+      "ordinanceSchedule": "By appointment only",
+      "sessionSchedule": "By appointment only",
+      "templeClosureSchedule": "2022: Saturday, 2 April 2022. Monday, 27 June 2022 - Monday, 11 July 2022. Saturday, 1 October 2022. Saturday, 24 December 2022. Saturday, 31 December 2022",
+      "imageurl": "https://assets.ldscdn.org/05/ba/05baca7fd19cb67cd1379e82b1d38ef996ec2eb2/mexico_city_temple_lds.jpg"
     },
     {
       "name": "Tokyo Japan Temple",
@@ -40,9 +43,10 @@
       "email": "",
       "services": "",
       "history": "9 August 1975 - Announced. 10 April 1978 - Groundbreaking. 27 October 1980 - Dedicated",
-      "ordinance schedule": "By appointment only",
-      "session schedule": "By appointment only",
-      "temple closure schedule": "Temple closed during renovation"
+      "ordinanceSchedule": "By appointment only",
+      "sessionSchedule": "By appointment only",
+      "templeClosureSchedule": "Temple closed during renovation",
+      "imageurl": "https://assets.ldscdn.org/27/33/27330eb5abe74d2dc2ee9d79147d22f76cab791b/tokyo_japan_temple_lds.png"
     }
   ]
 }
