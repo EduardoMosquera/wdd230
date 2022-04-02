@@ -1,0 +1,22 @@
+@media (min-width: 1200px) {
+  .img-container h3 {
+    font-size: 1.5rem;
+  }
+
+  .img-container .btn {
+    font-size: 1.1rem;
+  }
+
+  .mapouter, .gmap_canvas {
+    margin-left: 60%;
+    margin-right: 40%;
+    z-index: 1;
+    margin-top: -25%;
+  }
+
+  div.btn-booknow {
+    position: absolute;
+    top: 1em;
+    right: 2.5em;
+  }
+}

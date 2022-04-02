@@ -1,0 +1,48 @@
+{
+  "temples": [
+    {
+      "name": "Gilbert Arizona Temple",
+      "address": "3301 S Greenfield Rd, Gilbert AZ 85297, United States",
+      "telephone": "(1) 480-822-5000",
+      "email": "GILBE-OFF@ChurchofJesusChrist.org",
+      "services": "Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+      "history": "10 April 2008 - Announced. 13 November 2010 - Groundbreaking. 2 March 2014 - Dedicated",
+      "ordinance schedule": "By appointment only",
+      "session schedule": "By appointment only",
+      "temple closure schedule": "2022: Monday, 28 March 2022 - Monday, 11 April 2022. Saturday, 1 October 2022. Monday, 3 October 2022 - Monday, 17 October 2022. Wednesday, 23 November 2022 - Thursday, 24 November 2022. Saturday, 24 December 2022. Saturday, 31 December 2022"
+    },
+    {
+      "name": "Guayaquil Ecuador Temple",
+      "address": "Calle Rosendo Maridueña 8845, Urdesa Norte — Guayaquil, Ecuador",
+      "telephone": "(593) 4-371-8100",
+      "email": "GUAYA-THO@ChurchofJesusChrist.org",
+      "services": "Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+      "history": "31 March 1982 - Announced. 10 August 1996 - Groundbreaking. 1 August 1999 - Dedicated",
+      "ordinance schedule": "By appointment only",
+      "session schedule": "By appointment only",
+      "temple closure schedule": "2022: Monday, 7 March 2022 - Monday, 16 May 2022. Friday, 12 August 2022 - Monday, 15 August 2022 (Limited Operations). Thursday, 3 November 2022 - Monday, 7 November 2022 (Limited Operations)"
+    },
+    {
+      "name": "Mexico City Mexico Temple",
+      "address": "Avenida 510 #90, Col. San Juan de Aragon 07950 México, Distrito Federal, Mexico",
+      "telephone": "(52) 55-5003-3700",
+      "email": "MEXIC-OFF@ChurchofJesusChrist.org",
+      "services": "Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+      "history": "3 April 1976 - Announced. 25 November 1979 - Groundbreaking. 2 December 1983 - Dedicated. 16 November 2008 - Rededicated. 13 September 2015- Rededicated",
+      "ordinance schedule": "By appointment only",
+      "session schedule": "By appointment only",
+      "temple closure schedule": "2022: Saturday, 2 April 2022. Monday, 27 June 2022 - Monday, 11 July 2022. Saturday, 1 October 2022. Saturday, 24 December 2022. Saturday, 31 December 2022"
+    },
+    {
+      "name": "Tokyo Japan Temple",
+      "address": "5-8-10 Minami Azabu Minato-ku, Tokyo 106-0047, Japan",
+      "telephone": "",
+      "email": "",
+      "services": "",
+      "history": "9 August 1975 - Announced. 10 April 1978 - Groundbreaking. 27 October 1980 - Dedicated",
+      "ordinance schedule": "By appointment only",
+      "session schedule": "By appointment only",
+      "temple closure schedule": "Temple closed during renovation"
+    }
+  ]
+}

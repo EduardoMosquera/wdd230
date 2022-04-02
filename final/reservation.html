@@ -1,0 +1,173 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/icono.png">
+    <title>The Temple Inn & Suits</title>
+    <link
+      rel="stylesheet"
+      href="images/main.jpg"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="stylesheet" href="css/reservation.css">
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-container container">
+          <input type="checkbox" name="" id="">
+          <div class="hamburger-lines">
+              <span class="line line1"></span>
+              <span class="line line2"></span>
+              <span class="line line3"></span>
+          </div>
+          <ul class="menu-items">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="temple.html">Temple</a></li>
+              <li><a href="reservation.html">Reservation</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="#">Reception</a></li>
+              <li><a href="#">Temple missionary</a></li>
+          </ul>
+          <a href="index.html"><img class="logo" src="images/icono.png" alt="logo"></a>
+      </div>
+  </nav>
+  
+  <div class="reservation">
+  <form action="">
+    <!--  General -->
+    <div class="form-group">
+      <h2 class="heading">Booking & contact</h2>
+      <div class="controls">
+        <label for="name">Name</label>
+        <br>
+        <input type="text" id="name" class="floatLabel" name="name" required>
+      </div>
+
+      <div class="controls">
+        <label for="email">Email</label>
+        <br>
+        <input type="text" id="email" class="floatLabel" name="email" required>
+      </div>  
+
+      <div class="controls">
+        <label for="phone">Phone</label>
+        <br>
+        <input type="tel" id="phone" class="floatLabel" name="phone">
+      </div>
+
+            <div class="controls">
+              <label for="city">City</label>
+              <br>
+              <input type="text" id="city" class="floatLabel" name="city" required>
+            </div>   
+
+        <div class="controls">
+          <label for="country">Country</label>
+          <br>
+          <input type="text" id="country" class="floatLabel" name="country" required>
+        </div>
+    <!--  Details -->
+    <div class="form-group">
+      <h2 class="heading">Details</h2>
+      
+        <div class="controls"><label for="arrive" class="label-date"><i class="fa fa-calendar"></i>&nbsp;&nbsp;Arrive</label>
+          <input type="date" id="arrive" class="floatLabel" name="arrive" value="<?php echo date('Y-m-d'); ?>">
+        </div>      
+
+        <div class="controls">
+          <label for="depart" class="label-date"><i class="fa fa-calendar"></i>&nbsp;&nbsp;Depart</label>
+          <input type="date" id="depart" class="floatLabel" name="depart" value="<?php echo date('Y-m-d'); ?>" />
+        </div>     
+
+        <div class="controls">
+          <i class="fa fa-sort"></i>
+          <label for="fruit"><i class="fa fa-male"></i>&nbsp;&nbsp;People</label>
+          <select class="floatLabel">
+            <option value="blank"></option>
+            <option value="1">1</option>
+            <option value="2" selected>2</option>
+            <option value="3">3</option>
+          </select>
+        </div>     
+
+        <div class="controls">
+          <i class="fa fa-sort"></i>
+          <label for="fruit"><i class="fa fa-male"></i>&nbsp;&nbsp;Type of room </label>
+          <select class="floatLabel">
+            <option value="blank"></option>
+            <option value="1" selected>Single</option>
+            <option value="2">Double</option>
+            <option value="3">Triple</option>
+            <option value="4">Quad</option>
+            <option value="5">Queen</option>
+            <option value="6">King</option>
+          </select>
+        </div>      
+        
+          <br>
+          <p class="info-text">Please describe your needs e.g. Extra beds, children's cots, etc.</p>
+          <div class="controls">
+            <textarea name="comments" class="floatLabel" id="comments" placeholder="Comments..."></textarea>
+          </div>
+          <div class="btn-res">
+            <button type="submit" value="Submit" class="btn btn-primary">Send Now</button> 
+          </div>
+    </div>
+  </form>
+</div>
+  <img class="reception" src="images/reception.jpg" alt="sun umbrella">
+</div>
+
+  </body>
+    <footer id="footer">
+      
+      <h2>The Temple Inn & Suits &copy; all rights reserved</h2>
+      <hr style="width:100%;text-align:center;">
+      <div class="footer">
+      <div class="address">
+        <h4>Address</h4>
+        <address>4800 Montgomery Ln #300, Bethesda,<br>MD 20814, USA</address>
+        <br>
+        <h4>Where We Are</h4>
+        <a href="#" style="color: #fff;text-decoration: none;"><li style="list-style: none;">Arizona, USA</li></a>
+        <a href="#" style="color: #fff;text-decoration: none;"><li style="list-style: none;">Guayaquil, EC</li></a>
+        <a href="#" style="color: #fff;text-decoration: none;"><li style="list-style: none;">Mexico City, MX</li></a>
+        <a href="#" style="color: #fff;text-decoration: none;"><li style="list-style: none;">Tokyo, JP</li></a>
+        <a href="https://goo.gl/maps/7wnhhZ3ae8E24dNUA" class="maps"><h4>Maps & Directions</h4></a>
+      </div>
+      <div class="phone-numbers">
+        <h4>Hotel Direct</h4>
+        <p>156-165-7894</p>
+        <br>
+        <h4>Room Reservation</h4>
+        <p>888-165-3512</p>
+        <br>
+        <h4>Email</h4>
+        <p>inn&suits@gmail.com</p>
+      </div>
+      <div class="social-media">
+        <h4>Follow Us</h4>
+        <a href="https://www.instagram.com/eduardomosquera_/"><img class="ig" src="images/ig.png" alt="Instagram" style="width: 40px;"></a>
+        <a href="https://www.twitter.com/"><img class="ig" src="images/twitter.png" alt="Twitter" style="width: 40px;"></a>
+        <a href="index.html"><img class="footer-logo" src="images/The Temple Inn & Suites White.png" alt=""></a>
+      </div>
+        <div id="lastUpdate"></div>
+      </div>
+    </footer>
+  
+  
+  <script src="js/scripts.js"></script>
+  <script src="js/windchill.js"></script>
+  <script>
+    document.querySelector(
+      "#lastUpdate"
+    ).textContent = `Last Update: ${document.lastModified}`;
+    </script>
+  
+
+</html>
