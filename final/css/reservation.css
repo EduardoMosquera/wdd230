@@ -38,6 +38,8 @@ label{
   margin-top: 25px;
   margin-bottom: 20px;
   width: 100%;
+  transform: translateX(150%);
+  animation: about-img-animation 1.5s ease-in-out forwards;
 }
 
 .btn-res {
@@ -81,6 +83,7 @@ form input.floatLabel {
     margin-left: auto;
     margin-right: auto;
     margin-top: 75px;
+    height: 750px;
   }
 
   form input.floatLabel {

@@ -19,4 +19,16 @@
     top: 1em;
     right: 2.5em;
   }
+
+  .thankyou-text {
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: -500px;
+    margin-bottom: 300px;
+  }
+  
+  .thankyou-img img {
+    height: 100%;
+  }
+
 }

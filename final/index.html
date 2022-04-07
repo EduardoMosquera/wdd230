@@ -28,9 +28,12 @@
               <li><a href="index.html">Home</a></li>
               <li><a href="temple.html">Temple</a></li>
               <li><a href="reservation.html">Reservation</a></li>
-              <li><a href="services.html">Services</a></li>
-              <li><a href="#">Reception</a></li>
-              <li><a href="#">Temple missionary</a></li>
+              <li class="menuItem"><a href="services.html">Services</a>
+                <ul class="subMenu">
+                  <li class="subMenuItem menuItem"><a href="reception.html">Reception</a></li>
+                  <li class="subMenuItem menuItem"><a href="suites.html">Temple missionary</a></li>
+                </ul>
+              </li>
           </ul>
           <a href="index.html"><img class="logo" src="images/icono.png" alt="logo"></a>
       </div>
@@ -133,7 +136,7 @@
 
     </section>
 
-    <section id="contact">
+    <form id="contact" method="get" action="contact.html">
       <div class="contact-container container">
         <div class="contact-img">
           <img src="images/pool.jpg" alt="" />
@@ -148,10 +151,10 @@
             rows="6"
             placeholder="Type Any Question/Comment"
           ></textarea>
-          <a href="#" class="btn btn-primary">Send now</a>
+          <label><input type="submit" value="Send Now"  class="btn btn-primary"></label>
         </div>
       </div>
-    </section>
+    </form>
 
     <footer id="footer">
       

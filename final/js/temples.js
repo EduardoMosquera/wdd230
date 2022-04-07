@@ -5,16 +5,16 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    const business = jsonObject['temples'];
+    const temples = jsonObject['temples'];
    
-    business.forEach(displayCard);
+    temples.forEach(displayCard);
   });
 
 
 function displayCard(tmp) {
     // Create elements to add to the document
     let card = document.createElement('section');
-    let businessName = document.createElement('h3');
+    let templeName = document.createElement('h3');
     let address = document.createElement('p');
     let phoneNum = document.createElement('p');
     let email = document.createElement('p');
@@ -26,24 +26,24 @@ function displayCard(tmp) {
     let portrait = document.createElement('img');
   
     // Change the textContent property of the h2 element to contain the tmp's full name
-    businessName.textContent = tmp.name;
-    address.textContent = tmp.address;
-    phoneNum.textContent = tmp.phone;
-    email.textContent = tmp.email;
-    services.textContent = tmp.services;
-    history.textContent = tmp.history;
-    ordinanceS.textContent = tmp.ordinanceSchedule;
-    sessionS = textContent = tmp.sessionSchedule;
-    closedure = textContent = tmp.templeClosureSchedule;
+    templeName.textContent = tmp.name;
+    address.textContent = `Address: ${tmp.address}`;
+    phoneNum.textContent = `Telephone: ${tmp.telephone}`;
+    email.textContent = `Email: ${tmp.email}`;
+    services.textContent = `Services: ${tmp.services}`;
+    history.textContent = `History: ${tmp.history}`;
+    ordinanceS.textContent = `Ordinance Schedule: ${tmp.ordinanceSchedule}`;
+    sessionS.textContent = `Sessions Schedule: ${tmp.sessionSchedule}`;
+    closedure.textContent = `Closedure Schedule: ${tmp.templeClosureSchedule}`;
 
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
     portrait.setAttribute('src', tmp.imageurl);
     portrait.setAttribute('alt', 'Logo of ' + tmp.name);
     portrait.setAttribute('loading', 'lazy');
   
-    // Add/append the section(card) with the businessName element
+    // Add/append the section(card) with the templeName element
     card.appendChild(portrait);
-    card.appendChild(businessName);
+    card.appendChild(templeName);
     card.appendChild(address);
     card.appendChild(phoneNum);
     card.appendChild(email);

@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/small.css" />
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
+    <link rel="stylesheet" href="css/temples.css"/>
   </head>
   <body>
     <nav class="navbar">
@@ -28,15 +29,23 @@
               <li><a href="index.html">Home</a></li>
               <li><a href="temple.html">Temple</a></li>
               <li><a href="reservation.html">Reservation</a></li>
-              <li><a href="services.html">Services</a></li>
-              <li><a href="#">Reception</a></li>
-              <li><a href="#">Temple missionary</a></li>
+              <li class="menuItem"><a href="services.html">Services</a>
+                <ul class="subMenu">
+                  <li class="subMenuItem menuItem"><a href="reception.html">Reception</a></li>
+                  <li class="subMenuItem menuItem"><a href="suites.html">Temple missionary</a></li>
+                </ul>
+              </li>
           </ul>
           <a href="index.html"><img class="logo" src="images/icono.png" alt="logo"></a>
       </div>
   </nav>
 
-  <div id="cards"></div>
+  <main>
+    <h1>Temples</h1>
+    <hr>
+    <div id="cards">   
+    </div>
+  </main>
 
   </body>
     <footer id="footer">
@@ -75,10 +84,9 @@
       </div>
     </footer>
   
-  
-  <script src="js/scripts.js"></script>
-  <script src="js/windchill.js"></script>
+
   <script src="js/temples.js"></script>
+  <script src="js/like.js"></script>
   <script>
     document.querySelector(
       "#lastUpdate"

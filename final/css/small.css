@@ -106,11 +106,40 @@ body {
   margin-bottom: 0.5rem;
 }
 
+.menuItem{
+  float: left;
+  list-style: none;
+  position: relative;
+}
+
+.menuItem:hover{
+ box-shadow: none; 
+}
+
+.subMenu{
+  width: 200px;
+  display: none;
+  left: -1px;
+  position: absolute;
+  padding-top: 15px;
+  z-index: 1;
+  background-color: #fff;
+  opacity: 0.85;
+}
+
+.subMenuItem{
+  float:none;
+}
+
+.menuItem:hover .subMenu{
+ display: block;
+ opacity: 0.85;
+}
 /* .showcase-area img {
   width: 300px;
 } */
 
-/* ............//// Showcase styling ////......... */
+/*  Showcase styling  */
 
 .showcase-area {
   height: 50vh;
@@ -170,7 +199,7 @@ body {
   flex: 1 1 400px;
   padding: 30px;
   transform: translateX(150%);
-  animation: about-img-animation 1s ease-in-out forwards;
+  animation: about-img-animation 1.5s ease-in-out forwards;
 }
 
 @keyframes about-img-animation {
@@ -184,7 +213,7 @@ body {
   padding: 30px;
   margin: auto;
   transform: translate(-150%);
-  animation: about-text-animation 1s ease-in-out forwards;
+  animation: about-text-animation 1.5s ease-in-out forwards;
 }
 
 @keyframes about-text-animation {
@@ -288,7 +317,7 @@ body {
 
 
 
-/* ........./ Testimonial /.......... */
+/* Information */
 
 #information {
   padding: 5rem 0;
@@ -354,6 +383,10 @@ div.weatherDay:nth-child(5), div.weatherDay:nth-child(6), div.weatherDay:nth-chi
   margin-right: auto;
 }
 
+#map {
+  color: #a49966;
+}
+
 
 /* ........ Contact Us........... */
 
@@ -399,6 +432,10 @@ div.weatherDay:nth-child(5), div.weatherDay:nth-child(6), div.weatherDay:nth-chi
   font-size: 16px;
 }
 
+.form-container input[type="submit"] {
+  color: white;
+}
+
 .form-container textarea {
   display: block;
   width: 100%;
@@ -422,6 +459,39 @@ div.weatherDay:nth-child(5), div.weatherDay:nth-child(6), div.weatherDay:nth-chi
 .form-container a {
   font-size: 1.3rem;
 }
+
+.thankyou-img {
+  padding: 30px;
+}
+
+
+.thankyou-text {
+  font-size: 1rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: -275px;
+  margin-bottom: 50px;
+  text-align: center;
+  opacity: 0.99;
+}
+
+.big {
+  color: #117964;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.thankyou-img img {
+  display: block;
+  height: 400px;
+  max-width: 100%;
+  margin: auto;
+  object-fit: cover;
+  object-position: right;
+  margin-top: 75px;
+  opacity: 0.85;
+}
+/*     Footer     */
 
 #footer h2 {
   text-align: center;

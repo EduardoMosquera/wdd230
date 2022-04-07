@@ -4,20 +4,6 @@
       font-size: 1.6rem;
   }
 
-  .testimonial-container {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .food-menu-container img {
-    margin: auto;
-  }
-
-  .food-menu-item {
-    flex-direction: column;
-    text-align: center;
-  }
-
   .form-container {
     width: 90%;
   }
@@ -152,7 +138,7 @@
     transform: rotate(-35deg);
   }
 
-  /* ......./ food /......... */
+  /* Temples */
 
   .temple-container {
     flex-direction: column;
@@ -198,6 +184,17 @@
     margin-right: 40%;
     z-index: 1;
     margin-top: -380px;
+  }
+
+  .thankyou-text {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: -500px;
+    margin-bottom: 300px;
+  }
+  
+  .thankyou-img img {
+    height: 100%;
   }
 
   /* Footer */

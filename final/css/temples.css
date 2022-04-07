@@ -1,0 +1,102 @@
+main {
+  margin: 0 auto;
+  /* align-items: center; */
+  display: flex;
+  flex-direction: column;
+}
+
+#cards section {
+  background-color: #f5f5f7;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 350px;
+  max-height: 800px;
+  margin: 1em auto;
+  padding: .75em 0;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+}
+
+
+
+p {
+  margin: 10px;
+  padding: 0;
+  text-align: left;
+}
+
+#cards img {
+  max-height: 300px;
+  max-width: 200px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#cards {
+  margin: 0 auto;
+  text-align: center;
+}
+
+  #cards section p:nth-child(6),
+  #cards section p:nth-child(7),
+  #cards section p:nth-child(10) 
+  {
+    display: none;
+  }
+
+main h1 {
+  margin-top: 75px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a.panel-group_btn {color: #888;display:block;text-decoration: none;}
+
+a.like-btn {
+    color: #888;
+    font-size: 14px;
+}
+
+span.clicked {
+  color: red; 
+  font-weight:bold;
+}
+
+@media only screen and (min-width: 37.5em) {
+  #cards section {
+    width: 90%;
+    max-height: 800px;
+    margin: 1em auto;
+    padding: .75em 0;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    display:inline-block;
+  }
+
+  #cards img {
+    display: flex;
+    max-height: 300px;
+    max-width: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+  }
+
+  h3 {
+    margin-top: -150px;
+  }
+
+  p {
+    margin-top: 5px;
+    margin-left: 250px;
+    padding: 0;
+  }
+
+  #cards section p:nth-child(6),
+  #cards section p:nth-child(7),
+  #cards section p:nth-child(10) 
+  {
+    display: block;
+  }
+}
